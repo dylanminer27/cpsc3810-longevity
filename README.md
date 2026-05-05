@@ -43,7 +43,10 @@ Running `src/train.py` will:
 ```
 ├── data/
 │   ├── raw/                    # quality_of_life.csv 
-│   └── processed/              # train/val/test splits 
+│   └── processed/              # train/val/test splits
+├── results/
+│   ├── metrics.json            # final numbers 
+│   └── figures/                # figures
 ├── src/
 │   ├── data.py                 # load, clean, encode, split, standardize
 │   ├── optimizer.py            # Optimizer: GD / momentum GD / SGD / momentum SGD
@@ -51,9 +54,6 @@ Running `src/train.py` will:
 │   ├── evaluate.py             # MSE, R^2, accuracy, precision/recall/F1
 │   ├── plots.py                # loss curves, confusion matrix, clusters
 │   └── train.py                
-├── results/
-│   ├── metrics.json            # final numbers 
-│   └── figures/                # figures
 └── report/
     └── final_report.pdf        # final written report
 ```
