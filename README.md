@@ -7,13 +7,20 @@ features in the *Work-Life Balance and Longevity Dataset*.
 ## Setup
 
 ```bash
-# 1. Create and activate a virtual environment
+# 1. Clone this repository:
+git clone https://github.com/dylanminer27/cpsc3810-longevity.git
+cd cpsc3810-longevity
+
+# 2. Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate          # macOS / Linux
 # .venv\Scripts\activate           # Windows
 
-# 2. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Place the dataset file at data/raw/quality_of_life.csv
+#    (download from https://www.kaggle.com/datasets/oluwatosinadewale/quality-of-life-data)
 ```
 
 ## Reproduce all results
@@ -34,7 +41,6 @@ Running `src/train.py` will:
 ## Repository layout
 
 ```
-.
 ├── data/
 │   ├── raw/                    # quality_of_life.csv 
 │   └── processed/              # train/val/test splits 
