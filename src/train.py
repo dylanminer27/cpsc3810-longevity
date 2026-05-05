@@ -290,7 +290,7 @@ def main() -> None:
         'clustering': {},
     }
 
-    bundle = data()
+    bundle = m1_data()
     baseline_regression(bundle, metrics)
     custom_regression(bundle, metrics)
     optimizer_sweep(bundle, metrics)
