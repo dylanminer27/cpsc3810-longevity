@@ -1,9 +1,5 @@
 # Do Lifestyle and Work Habits Predict Longevity?
 
-CPSC 3810: Introduction to Machine Learning 
-Final Project · Spring 2026
-**Authors:** Katie Hur, Dylan Miner
-
 This project builds linear regression, multinomial logistic regression, and K-Means
 clustering models from scratch to predict and analyze longevity from lifestyle
 features in the *Work-Life Balance and Longevity Dataset*.
@@ -49,9 +45,6 @@ Running `src/train.py` will:
 │   ├── evaluate.py             # MSE, R^2, accuracy, precision/recall/F1
 │   ├── plots.py                # loss curves, confusion matrix, clusters
 │   └── train.py                
-├── notebooks/
-│   ├── 01_eda.ipynb            # exploratory data analysis
-│   └── final_project_demo.ipynb 
 ├── results/
 │   ├── metrics.json            # final numbers 
 │   └── figures/                # figures
